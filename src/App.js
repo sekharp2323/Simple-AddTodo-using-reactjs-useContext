@@ -1,7 +1,7 @@
 import React from 'react'
-import TodoForm from './TodoForm'
-import Todolist from './Todolist'
-import { TodoProvider } from './TodoContext'
+import TodoForm from './AddTodo/TodoForm'
+import Todolist from './AddTodo/Todolist'
+import { TodoProvider } from './AddTodo/TodoContext'
 const App = () => {
   return (
     <TodoProvider>
